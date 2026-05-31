@@ -1,0 +1,340 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+
+    background:#f1f5f9;
+
+    padding:40px;
+}
+
+
+/* MAIN CONTAINER */
+
+.container{
+
+    width:90%;
+
+    margin:auto;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:12px;
+
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+
+/* HEADING */
+
+h1{
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+    color:#1e293b;
+
+    font-size:34px;
+
+    font-weight:600;
+}
+
+
+/* TOP BAR */
+
+.top-bar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:25px;
+}
+
+
+/* SEARCH */
+
+.search-box{
+
+    padding:10px;
+
+    width:250px;
+
+    border:1px solid #cbd5e1;
+
+    border-radius:8px;
+
+    font-size:15px;
+
+    outline:none;
+}
+
+.search-btn{
+
+    padding:10px 18px;
+
+    border:none;
+
+    background:#2563eb;
+
+    color:white;
+
+    border-radius:8px;
+
+    margin-left:10px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+.search-btn:hover{
+
+    background:#1d4ed8;
+}
+
+
+/* COMMON BUTTON */
+
+.btn{
+
+    text-decoration:none;
+
+    padding:10px 18px;
+
+    border-radius:8px;
+
+    color:white;
+
+    font-size:14px;
+
+    transition:0.3s;
+}
+
+
+/* REGISTER BUTTON */
+
+.register-btn{
+
+    background:#16a34a;
+}
+
+.register-btn:hover{
+
+    background:#15803d;
+}
+
+
+/* UPDATE BUTTON */
+
+.update-btn{
+
+    background:#f59e0b;
+}
+
+.update-btn:hover{
+
+    background:#d97706;
+}
+
+
+/* DELETE BUTTON */
+
+.delete-btn{
+
+    background:#dc2626;
+}
+
+.delete-btn:hover{
+
+    background:#b91c1c;
+}
+
+
+/* TABLE */
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    margin-top:20px;
+}
+
+table th{
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:14px;
+
+    text-align:center;
+
+    font-size:16px;
+}
+
+table td{
+
+    padding:14px;
+
+    text-align:center;
+
+    border-bottom:1px solid #e2e8f0;
+
+    color:#334155;
+}
+
+table tr:nth-child(even){
+
+    background:#f8fafc;
+}
+
+table tr:hover{
+
+    background:#e0f2fe;
+}
+
+
+/* FORM */
+
+form{
+
+    margin-top:20px;
+}
+
+label{
+
+    display:block;
+
+    margin-bottom:6px;
+
+    color:#334155;
+
+    font-weight:500;
+}
+
+input{
+
+    width:100%;
+
+    padding:12px;
+
+    border:1px solid #cbd5e1;
+
+    border-radius:8px;
+
+    margin-bottom:18px;
+
+    outline:none;
+
+    font-size:15px;
+}
+
+input:focus{
+
+    border:1px solid #2563eb;
+}
+
+
+/* SUBMIT BUTTON */
+
+.submit-btn{
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 18px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+.submit-btn:hover{
+
+    background:#1d4ed8;
+}
+
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+    .top-bar{
+
+        flex-direction:column;
+
+        gap:15px;
+    }
+
+    .search-box{
+
+        width:100%;
+    }
+	
+	/* HOME PAGE BUTTONS */
+
+	.home-buttons{
+
+	    display:flex;
+
+	    justify-content:center;
+
+	    gap:25px;
+
+	    margin-top:40px;
+	}
+
+
+	/* DISPLAY BUTTON */
+
+	.display-btn{
+
+	    background:#7c3aed;
+	}
+
+	.display-btn:hover{
+
+	    background:#6d28d9;
+	}
+
+
+	/* HEADING */
+
+	h1{
+
+	    text-align:center;
+
+	    font-size:40px;
+
+	    color:#1e293b;
+
+	    margin-bottom:40px;
+
+	    font-weight:bold;
+	}
+	
+
+
+}
+
