@@ -1,12 +1,12 @@
 # Movie Management System
 
-**Spring Boot | Spring MVC | JPA | PostgreSQL | Pagination | Search | Responsive CSS**
+Spring Boot | Spring MVC | JPA | PostgreSQL | Pagination | Search | Responsive CSS**
 
-## 📋 Overview
+📋 Overview
 
 A full-stack movie management web application built with Spring Boot 4.0.6 and Java 17. The application demonstrates enterprise-grade Java development practices including clean architecture, pagination, search functionality, and professional UI/UX with responsive CSS styling.
 
-### ✨ Key Features
+✨ Key Features
 
 ✅ **Complete CRUD Operations** - Create, Read, Update, Delete movies  
 ✅ **Pagination** - Efficient data display with Spring Data Page<T>  
@@ -20,7 +20,7 @@ A full-stack movie management web application built with Spring Boot 4.0.6 and J
 
 ---
 
-## 🛠 Tech Stack
+🛠 Tech Stack
 
 | Component | Technology | Version |
 |-----------|-----------|---------|
@@ -35,7 +35,7 @@ A full-stack movie management web application built with Spring Boot 4.0.6 and J
 
 ---
 
-## 📥 Installation & Setup
+📥 Installation & Setup
 
 ### Prerequisites
 
@@ -51,7 +51,7 @@ A full-stack movie management web application built with Spring Boot 4.0.6 and J
    git clone https://github.com/YOUR_USERNAME/movie-management-system.git
    cd movie-management-system
 
-##Crate Database 
+##Create Database 
 CREATE DATABASE movie_db;
 
 
